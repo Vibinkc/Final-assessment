@@ -8,7 +8,6 @@ function validation(){
     if(input_text.value.length <= 6 || input_password.value.length <= 6 ){
       error_msg.style.display = "inline-block";
       input_text.style.border = "1px solid #f74040";
-      return false;
     }
     else{
       return true;
